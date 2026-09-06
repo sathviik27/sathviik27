@@ -21,12 +21,6 @@
   <a href="https://github.com/sathviik27">
     <img src="https://img.shields.io/badge/GitHub-sathviik27-white?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" />
   </a>
-  <a href="https://linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
-  </a>
-  <a href="https://kaggle.com" target="_blank">
-    <img src="https://img.shields.io/badge/Kaggle-Top%2018%25-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0d1117" alt="Kaggle" />
-  </a>
   <img src="https://komarev.com/ghpvc/?username=sathviik27&label=Profile%20Views&color=00F0FF&style=for-the-badge&labelColor=0d1117" alt="Profile Views" />
 </p>
 
@@ -34,10 +28,8 @@
 
 ---
 
-<!-- Cinematic Visual Graphic & Profile Overview -->
+<!-- Profile Overview Card -->
 <div align="center">
-  <img src="./assets/images/hero-banner.jpg" alt="Sathvik R - AI & Automotive Engineering" width="100%" style="border-radius: 12px;" />
-  <br/><br/>
   <img src="./assets/images/profile-card.svg" alt="Sathvik Profile Card" width="100%" />
 </div>
 
@@ -74,17 +66,17 @@ Personal Brand = [ AI / Machine Learning ] + [ Cybersecurity & Systems ] + [ Aut
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 1. Artificial Intelligence & Machine Learning</h3>
+      <h3>🧠 1. Artificial Intelligence &amp; Machine Learning</h3>
       <ul>
         <li><strong>First-Principles Deep Learning:</strong> Autograd engines, computational graphs, and loss surfaces built from mathematical foundations.</li>
         <li><strong>Architectures:</strong> Convolutional Neural Networks (CNNs), Vision Transformers, and quantized LLMs.</li>
-        <li><strong>Applied AI & RAG:</strong> Vector indexing with ChromaDB, LangChain pipelines, and zero-latency client inference.</li>
+        <li><strong>Applied AI &amp; RAG:</strong> Vector indexing with ChromaDB, LangChain pipelines, and zero-latency client inference.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🛡️ 2. Cybersecurity & Low-Level Systems</h3>
+      <h3>🛡️ 2. Cybersecurity &amp; Low-Level Systems</h3>
       <ul>
-        <li><strong>Memory Safety & Low-Level CS:</strong> Deep exploration of memory management, pointer safety, and cache locality in <strong>C++</strong>.</li>
+        <li><strong>Memory Safety &amp; Low-Level CS:</strong> Deep exploration of memory management, pointer safety, and cache locality in <strong>C++</strong>.</li>
         <li><strong>JVM Architecture:</strong> Garbage collection mechanics, concurrency, and thread-safe design in <strong>Core Java</strong>.</li>
         <li><strong>Defensive Engineering:</strong> Secure API endpoints, network protocols, vulnerability analysis, and zero-trust mindset.</li>
       </ul>
@@ -92,19 +84,19 @@ Personal Brand = [ AI / Machine Learning ] + [ Cybersecurity & Systems ] + [ Aut
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏎️ 3. Automotive Technology & Engineering</h3>
+      <h3>🏎️ 3. Automotive Technology &amp; Engineering</h3>
       <ul>
         <li><strong>Powertrain Dynamics:</strong> Naturally aspirated vs. forced induction (turbo/supercharging), torque curves, and ECU remapping physics.</li>
-        <li><strong>Aerodynamics:</strong> Downforce generation, ground effects, drag coefficients ($C_d$), and active aero flaps.</li>
+        <li><strong>Aerodynamics:</strong> Downforce generation, ground effects, drag coefficient (Cd), and active aero flaps.</li>
         <li><strong>Next-Gen Mobility:</strong> EV battery thermal runaway mitigation, regenerative braking, inverter telemetry, and autonomous LiDAR perception.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🎬 4. Content Creation & DaVinci Resolve</h3>
+      <h3>🎬 4. Content Creation &amp; DaVinci Resolve</h3>
       <ul>
         <li><strong>Cinematic Video Production:</strong> High-production-value technical and automotive video creation.</li>
         <li><strong>DaVinci Resolve Suite:</strong> Mastering color science, node-based grading, Fusion motion graphics, and Fairlight sound design.</li>
-        <li><strong>Education & Outreach:</strong> Translating intricate automotive engineering and AI concepts into captivating visual stories.</li>
+        <li><strong>Education &amp; Outreach:</strong> Translating intricate automotive engineering and AI concepts into captivating visual stories.</li>
       </ul>
     </td>
   </tr>
@@ -152,45 +144,45 @@ Personal Brand = [ AI / Machine Learning ] + [ Cybersecurity & Systems ] + [ Aut
 
 <table width="100%">
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>👁️ VisionDigit: In-Browser CNN Recognizer</h3>
       <p>A 4-layer Convolutional Neural Network trained on MNIST with Batch Normalization, Dropout, and live zero-latency inference on an HTML5 canvas.</p>
       <p>
-        <img src="https://img.shields.io/badge/Accuracy-99.2%25-00FF9D?style=flat-square" />
-        <img src="https://img.shields.io/badge/Latency-8.4ms-00F0FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/Stack-PyTorch_•_Python-3776AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Accuracy-99.2%25-00FF9D?style=flat-square" alt="Accuracy" />
+        <img src="https://img.shields.io/badge/Latency-8.4ms-00F0FF?style=flat-square" alt="Latency" />
+        <img src="https://img.shields.io/badge/Stack-PyTorch_•_Python-3776AB?style=flat-square" alt="Stack" />
       </p>
       <a href="https://sathvikr.vercel.app/#playground"><strong>View Live Interactive Studio »</strong></a>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>☕ JavaMatrix: Zero-Dependency Tensor Engine</h3>
       <p>Built an object-oriented multi-dimensional tensor computation and automatic differentiation engine entirely from scratch in Core Java (JDK 21).</p>
       <p>
-        <img src="https://img.shields.io/badge/JDK-21_LTS-ED8B00?style=flat-square" />
-        <img src="https://img.shields.io/badge/Dependencies-0_(Pure_Java)-00FF9D?style=flat-square" />
-        <img src="https://img.shields.io/badge/JUnit-96%25_Coverage-25A162?style=flat-square" />
+        <img src="https://img.shields.io/badge/JDK-21_LTS-ED8B00?style=flat-square" alt="JDK" />
+        <img src="https://img.shields.io/badge/Dependencies-0_(Pure_Java)-00FF9D?style=flat-square" alt="Dependencies" />
+        <img src="https://img.shields.io/badge/JUnit-96%25_Coverage-25A162?style=flat-square" alt="Coverage" />
       </p>
       <a href="https://github.com/sathviik27"><strong>Explore Engine Code »</strong></a>
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>💬 SentimentPulse: DistilBERT NLP Stream</h3>
       <p>Fine-tuned DistilBERT transformer on 50,000 text reviews to detect nuanced emotion polarity with token-level attention heatmaps and INT8 quantization.</p>
       <p>
-        <img src="https://img.shields.io/badge/F1_Score-0.948-00FF9D?style=flat-square" />
-        <img src="https://img.shields.io/badge/Speedup-4x_INT8-FF0080?style=flat-square" />
-        <img src="https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=flat-square" />
+        <img src="https://img.shields.io/badge/F1_Score-0.948-00FF9D?style=flat-square" alt="F1 Score" />
+        <img src="https://img.shields.io/badge/Speedup-4x_INT8-FF0080?style=flat-square" alt="Speedup" />
+        <img src="https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=flat-square" alt="HuggingFace" />
       </p>
       <a href="https://sathvikr.vercel.app/#playground"><strong>Test Model Online »</strong></a>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>📚 DSU CourseSpark: AI Academic Tutor</h3>
       <p>Retrieval-Augmented Generation (RAG) assistant indexing Dayananda Sagar University STEM lecture notes and curriculum into ChromaDB vector store.</p>
       <p>
-        <img src="https://img.shields.io/badge/Retrieval-96%25_Precision-00F0FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/Chunks-2%2C400+-A855F7?style=flat-square" />
-        <img src="https://img.shields.io/badge/Vector-ChromaDB-FF6B6B?style=flat-square" />
+        <img src="https://img.shields.io/badge/Retrieval-96%25_Precision-00F0FF?style=flat-square" alt="Precision" />
+        <img src="https://img.shields.io/badge/Chunks-2%2C400+-A855F7?style=flat-square" alt="Chunks" />
+        <img src="https://img.shields.io/badge/Vector-ChromaDB-FF6B6B?style=flat-square" alt="Vector" />
       </p>
       <a href="https://sathvikr.vercel.app/#projects"><strong>Read Architecture Spec »</strong></a>
     </td>
@@ -209,33 +201,17 @@ Personal Brand = [ AI / Machine Learning ] + [ Cybersecurity & Systems ] + [ Aut
 
 I combine my engineering mindset with a relentless passion for the automotive world:
 
-- 🏎️ **Vehicle Dynamics & Aerodynamics:** Analyzing downforce coefficients ($C_l$), drag reduction systems ($DRS$), ground effect venturi tunnels, and high-speed cornering stability.
+- 🏎️ **Vehicle Dynamics &amp; Aerodynamics:** Analyzing downforce coefficient (Cl), drag reduction system (DRS), ground effect venturi tunnels, and high-speed cornering stability.
 - ⚙️ **Powertrain Engineering:** Deep-diving into the physics of internal combustion, twin-scroll turbocharging, anti-lag systems, and electric motor torque density.
 - 🤖 **Autonomous Telemetry:** Understanding LiDAR perception, sensor fusion with Kalman filters, SLAM (Simultaneous Localization and Mapping), and edge neural network acceleration.
-- 🎬 **Cinematography & Editing:** Producing cinematic automotive breakdowns with **DaVinci Resolve**, mastering color management (ACES / DaVinci YRGB Color Managed), sound design, and speed-ramp pacing.
+- 🎬 **Cinematography &amp; Editing:** Producing cinematic automotive breakdowns with **DaVinci Resolve**, mastering color management (ACES / DaVinci YRGB Color Managed), sound design, and speed-ramp pacing.
 
 ---
 
-## 📊 Live GitHub Analytics
+## 📊 Engineering Metrics & Stack Distribution
 
 <div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=sathviik27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F0FF&icon_color=00FF9D&text_color=c9d1d9" alt="GitHub Stats" width="100%" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sathviik27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9" alt="Top Languages" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://streak-stats.demolab.com/?user=sathviik27&theme=tokyonight&hide_border=true&background=0d1117&ring=00F0FF&fire=FF0055&currStreakLabel=00FF9D" alt="GitHub Streak" width="95%" />
-    </td>
-  </tr>
-</table>
-
+  <img src="./assets/images/stats-card.svg" alt="Engineering Metrics and Stack Distribution" width="100%" />
 </div>
 
 ---
@@ -265,9 +241,6 @@ I combine my engineering mindset with a relentless passion for the automotive wo
   </a>
   <a href="https://sathvikr.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Personal_Portfolio-sathvikr.vercel.app-00F0FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Portfolio" />
-  </a>
-  <a href="https://linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
   </a>
   <a href="https://github.com/sathviik27">
     <img src="https://img.shields.io/badge/GitHub-Follow_@sathviik27-white?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" />

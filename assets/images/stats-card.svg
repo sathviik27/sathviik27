@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111726"/>
+    </linearGradient>
+    <linearGradient id="cyanPill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#00FF9D"/>
+    </linearGradient>
+    <linearGradient id="purpleBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7928CA"/>
+      <stop offset="100%" stop-color="#FF0080"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00FF9D" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .hdr { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #FFFFFF; }
+    .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #8B949E; }
+    .metric-val { font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: 700; fill: #FFFFFF; }
+    .metric-lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #7D8590; text-transform: uppercase; letter-spacing: 0.6px; }
+    .lang-lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 500; fill: #E6EDF3; }
+    .pct { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; fill: #8B949E; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="206" rx="14" fill="url(#statsBg)" stroke="url(#cardBorder)" stroke-width="1.5"/>
+
+  <!-- Left Section: Engineering Metrics -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="16" class="hdr">⚡ Engineering &amp; Academic Metrics</text>
+    <text x="0" y="32" class="sub">Verified student coursework, algorithmic practice, and neural model development</text>
+
+    <!-- 4 Metric Cards -->
+    <g transform="translate(0, 48)">
+      <!-- Metric 1 -->
+      <rect x="0" y="0" width="195" height="48" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="14" y="20" class="metric-lbl">Contributions</text>
+      <text x="14" y="38" class="metric-val" fill="#00FF9D">480+ <tspan font-size="11" font-weight="400" fill="#7D8590">Commits</tspan></text>
+
+      <!-- Metric 2 -->
+      <rect x="205" y="0" width="195" height="48" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="14" y="20" class="metric-lbl">Academic Rigor</text>
+      <text x="14" y="38" class="metric-val" fill="#00F0FF">A+ <tspan font-size="11" font-weight="400" fill="#7D8590">DSA &amp; Math</tspan></text>
+
+      <!-- Metric 3 -->
+      <rect x="0" y="56" width="195" height="48" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="14" y="20" class="metric-lbl">ML &amp; CS Projects</text>
+      <text x="14" y="38" class="metric-val" fill="#FFB800">12+ <tspan font-size="11" font-weight="400" fill="#7D8590">Modules</tspan></text>
+
+      <!-- Metric 4 -->
+      <rect x="205" y="56" width="195" height="48" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="14" y="20" class="metric-lbl">Kaggle Benchmark</text>
+      <text x="14" y="38" class="metric-val" fill="#FF0080">Top 18% <tspan font-size="11" font-weight="400" fill="#7D8590">Rank</tspan></text>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="450" y1="24" x2="450" y2="186" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Right Section: Core Language Stack Distribution -->
+  <g transform="translate(476, 20)">
+    <text x="0" y="16" class="hdr">💻 Language Focus Distribution</text>
+    <text x="0" y="32" class="sub">Primary focus areas across systems programming, AI &amp; backend engineering</text>
+
+    <!-- Stack Progress Bar -->
+    <g transform="translate(0, 48)">
+      <rect x="0" y="0" width="375" height="10" rx="5" fill="#21262d"/>
+      <rect x="0" y="0" width="150" height="10" rx="5" fill="#3776AB"/>
+      <rect x="150" y="0" width="105" height="10" rx="0" fill="#00599C"/>
+      <rect x="255" y="0" width="75" height="10" rx="0" fill="#ED8B00"/>
+      <rect x="330" y="0" width="45" height="10" rx="5" fill="#00FF9D"/>
+    </g>
+
+    <!-- Legend Items -->
+    <g transform="translate(0, 72)">
+      <!-- Row 1 -->
+      <g transform="translate(0, 0)">
+        <circle cx="6" cy="6" r="5" fill="#3776AB"/>
+        <text x="18" y="10" class="lang-lbl">Python (AI &amp; Math)</text>
+        <text x="145" y="10" class="pct">40%</text>
+      </g>
+      <g transform="translate(190, 0)">
+        <circle cx="6" cy="6" r="5" fill="#00599C"/>
+        <text x="18" y="10" class="lang-lbl">C++ (DSA &amp; Low-Level)</text>
+        <text x="150" y="10" class="pct">28%</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 30)">
+        <circle cx="6" cy="6" r="5" fill="#ED8B00"/>
+        <text x="18" y="10" class="lang-lbl">Core Java 21 (OOP)</text>
+        <text x="145" y="10" class="pct">20%</text>
+      </g>
+      <g transform="translate(190, 30)">
+        <circle cx="6" cy="6" r="5" fill="#00FF9D"/>
+        <text x="18" y="10" class="lang-lbl">SQL &amp; Bash Shell</text>
+        <text x="150" y="10" class="pct">12%</text>
+      </g>
+    </g>
+
+    <!-- Status Sub-pill -->
+    <g transform="translate(0, 140)">
+      <rect x="0" y="0" width="375" height="22" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <circle cx="12" cy="11" r="3.5" fill="#00FF9D"/>
+      <text x="22" y="15" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">100 DAYS OF CODE • CONTINUOUS ENGINEERING COMMITMENT</text>
+    </g>
+  </g>
+</svg>
