@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <!-- Background & Gradients -->
+    <radialGradient id="bgGlow" cx="80%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00FF9D" stop-opacity="0.07"/>
+      <stop offset="60%" stop-color="#00F0FF" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="leftGlow" cx="20%" cy="70%" r="40%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141822" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0b0e14" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="quoteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11151f" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0a0c12" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3345"/>
+      <stop offset="50%" stop-color="#1d222e"/>
+      <stop offset="100%" stop-color="#2c3345"/>
+    </linearGradient>
+
+    <!-- Clip Path for Circular Avatar -->
+    <clipPath id="avatarClip">
+      <circle cx="185" cy="165" r="62"/>
+    </clipPath>
+
+    <!-- Dot Pattern -->
+    <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#303645" fill-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', monospace; }
+    
+    .nav-brand { font-size: 14px; font-weight: 700; fill: #FFFFFF; letter-spacing: -0.2px; }
+    .nav-sub { font-size: 10px; font-weight: 600; fill: #7D8590; letter-spacing: 0.5px; }
+    .nav-link { font-size: 13px; font-weight: 500; fill: #9CA3AF; }
+    
+    .hero-h1 { font-size: 62px; font-weight: 800; fill: #FFFFFF; letter-spacing: -1.8px; line-height: 1.05; }
+    .hero-p { font-size: 15px; font-weight: 400; fill: #9CA3AF; line-height: 1.65; }
+    .hero-p-bold { font-weight: 600; fill: #FFFFFF; }
+    
+    .quote-text { font-size: 13px; font-weight: 400; fill: #9CA3AF; font-style: italic; line-height: 1.55; }
+    .quote-author { font-size: 12px; font-weight: 600; fill: #E5E7EB; }
+    .quote-meta { font-size: 11px; font-weight: 400; fill: #6B7280; }
+
+    .card-name { font-size: 24px; font-weight: 700; fill: #FFFFFF; letter-spacing: -0.5px; }
+    .card-role { font-size: 12.5px; font-weight: 400; fill: #9CA3AF; }
+    .card-inst { font-size: 13px; font-weight: 600; fill: #00FF9D; }
+    .card-pill-txt { font-size: 11px; font-weight: 500; fill: #D1D5DB; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="680" rx="16" fill="#090B10"/>
+  <!-- Dot Grid Pattern -->
+  <rect width="1200" height="680" fill="url(#dotPattern)"/>
+  <!-- Ambient Glows -->
+  <rect width="1200" height="680" fill="url(#bgGlow)"/>
+  <rect width="1200" height="680" fill="url(#leftGlow)"/>
+
+  <!-- ======================================================== -->
+  <!-- 1. FLOATING NAVIGATION BAR                                -->
+  <!-- ======================================================== -->
+  <g transform="translate(180, 20)">
+    <!-- Pill Background -->
+    <rect x="0" y="0" width="840" height="50" rx="25" fill="#12151E" fill-opacity="0.85" stroke="#252A38" stroke-width="1.2"/>
+    
+    <!-- Brand -->
+    <text x="24" y="31" class="font-sans nav-brand">Sathvik</text>
+    <rect x="76" y="16" width="90" height="18" rx="9" fill="#1C2130"/>
+    <text x="83" y="29" class="font-mono nav-sub" fill="#8B949E">DSU • AI &amp; ML</text>
+
+    <!-- Nav Links -->
+    <g transform="translate(210, 30)">
+      <text x="0" y="0" class="font-sans nav-link">Foundations</text>
+      <text x="95" y="0" class="font-sans nav-link">Toolkit</text>
+      <text x="160" y="0" class="font-sans nav-link">AI Studio</text>
+      <text x="238" y="0" class="font-sans nav-link">Journal</text>
+      <text x="305" y="0" class="font-sans nav-link">Contact</text>
+    </g>
+
+    <!-- Nav Action Buttons -->
+    <g transform="translate(620, 10)">
+      <!-- Theme Icon -->
+      <circle cx="20" cy="15" r="14" fill="#1A1F2C" stroke="#2B3245" stroke-width="1"/>
+      <text x="14" y="20" font-size="12" fill="#9CA3AF">☀️</text>
+
+      <!-- Resume Pill -->
+      <rect x="44" y="0" width="70" height="30" rx="15" fill="#1A1F2C" stroke="#2B3245" stroke-width="1"/>
+      <text x="60" y="20" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF">Resume</text>
+
+      <!-- Get In Touch Pill -->
+      <rect x="122" y="0" width="90" height="30" rx="15" fill="#FFFFFF"/>
+      <text x="135" y="20" class="font-sans" font-size="12" font-weight="600" fill="#000000">Get in Touch</text>
+    </g>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- 2. LEFT HERO CONTENT                                      -->
+  <!-- ======================================================== -->
+  <g transform="translate(60, 110)">
+    
+    <!-- Top Status Badge -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="280" height="26" rx="13" fill="#00FF9D" fill-opacity="0.08" stroke="#00FF9D" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="14" cy="13" r="4" fill="#00FF9D"/>
+      <text x="26" y="17" class="font-sans" font-size="11.5" font-weight="600" fill="#00FF9D">Dayananda Sagar University • 1st Year AI &amp; ML</text>
+    </g>
+
+    <!-- Giant Hero Title -->
+    <g transform="translate(0, 72)">
+      <text x="0" y="0" class="font-sans hero-h1">Intelligence.</text>
+      <text x="0" y="66" class="font-sans hero-h1">Engineered from</text>
+      <text x="0" y="132" class="font-sans hero-h1">first principles.</text>
+    </g>
+
+    <!-- Bio Paragraph -->
+    <g transform="translate(0, 235)">
+      <text x="0" y="0" class="font-sans hero-p">
+        <tspan x="0" dy="0">I am </tspan><tspan class="hero-p-bold">Sathvik</tspan><tspan>, an AI &amp; Machine Learning undergraduate at</tspan>
+        <tspan x="0" dy="24" class="hero-p-bold">Dayananda Sagar University (DSU), Bangalore</tspan><tspan>. Rigorously</tspan>
+        <tspan x="0" dy="24">mastering core computer science foundations across </tspan><tspan class="hero-p-bold">Python,</tspan>
+        <tspan x="0" dy="24" class="hero-p-bold">C++, and Core Java</tspan><tspan>, building mathematical intuition from linear</tspan>
+        <tspan x="0" dy="24">algebra to deep neural networks.</tspan>
+      </text>
+    </g>
+
+    <!-- Buttons Row -->
+    <g transform="translate(0, 365)">
+      <!-- Launch AI Studio (White Button) -->
+      <rect x="0" y="0" width="168" height="42" rx="21" fill="#FFFFFF"/>
+      <polygon points="18,17 18,27 27,22" fill="#000000"/>
+      <text x="34" y="26" class="font-sans" font-size="13" font-weight="700" fill="#000000">Launch AI Studio</text>
+
+      <!-- Technical Toolkit Button -->
+      <rect x="180" y="0" width="138" height="42" rx="21" fill="#141822" stroke="#2D3548" stroke-width="1.2"/>
+      <text x="198" y="26" class="font-sans" font-size="13" font-weight="600" fill="#FFFFFF">Technical Toolkit</text>
+
+      <!-- Resume Button -->
+      <rect x="330" y="0" width="95" height="42" rx="21" fill="#141822" stroke="#2D3548" stroke-width="1.2"/>
+      <text x="354" y="26" class="font-sans" font-size="13" font-weight="600" fill="#FFFFFF">Resume</text>
+    </g>
+
+    <!-- Philosophy Quote Card -->
+    <g transform="translate(0, 435)">
+      <rect x="0" y="0" width="530" height="96" rx="14" fill="url(#quoteGrad)" stroke="#1F2636" stroke-width="1"/>
+      <!-- Emerald Quote Icon -->
+      <text x="18" y="38" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#00FF9D" opacity="0.9">“</text>
+      <text x="44" y="28" class="font-sans quote-text">
+        <tspan x="44" dy="0">“Learn the mechanics before the abstractions. Master every pointer in C++,</tspan>
+        <tspan x="44" dy="20">every object hierarchy in Core Java, and every partial derivative driving</tspan>
+        <tspan x="44" dy="20">backpropagation.”</tspan>
+      </text>
+      <text x="44" y="82" class="font-sans quote-author">Sathvik</text>
+      <text x="96" y="82" class="font-sans quote-meta">• Academic Thesis, DSU Bangalore</text>
+    </g>
+
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- 3. RIGHT HERO VISUAL CARD                                 -->
+  <!-- ======================================================== -->
+  <g transform="translate(790, 110)">
+    
+    <!-- Outer Floating Card Shell -->
+    <rect x="0" y="0" width="370" height="520" rx="20" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1.5"/>
+
+    <!-- Top Card Pills -->
+    <g transform="translate(20, 20)">
+      <!-- Left Pill -->
+      <rect x="0" y="0" width="155" height="26" rx="13" fill="#1C2230" stroke="#2D364A" stroke-width="0.8"/>
+      <text x="12" y="17" class="font-sans" font-size="11" font-weight="500" fill="#9CA3AF">DSU School of Engineering</text>
+
+      <!-- Right Pill (Open to Collab) -->
+      <rect x="235" y="0" width="95" height="26" rx="13" fill="#00FF9D" fill-opacity="0.08" stroke="#00FF9D" stroke-opacity="0.25" stroke-width="1"/>
+      <circle cx="247" cy="13" r="3.5" fill="#00FF9D"/>
+      <text x="256" y="17" class="font-sans" font-size="10.5" font-weight="600" fill="#00FF9D">Open to Collab</text>
+    </g>
+
+    <!-- Centered Circular Avatar with Glowing Border -->
+    <g transform="translate(0, 0)">
+      <!-- Outer Glow Ring -->
+      <circle cx="185" cy="165" r="66" fill="none" stroke="#00FF9D" stroke-opacity="0.2" stroke-width="2"/>
+      <circle cx="185" cy="165" r="63" fill="#121620"/>
+      <!-- Embedded Avatar Image -->
+      <image href="data:image/jpeg;base64,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" x="122" y="102" width="126" height="126" clip-path="url(#avatarClip)"/>
+      <circle cx="185" cy="165" r="62" fill="none" stroke="#2D3548" stroke-width="1.5"/>
+    </g>
+
+    <!-- Details Section -->
+    <g transform="translate(24, 255)">
+      <!-- Name -->
+      <text x="0" y="24" class="font-sans card-name">Sathvik</text>
+      <!-- Subtitle -->
+      <text x="0" y="48" class="font-sans card-role">B.Tech in Artificial Intelligence &amp; Machine Learning</text>
+      <!-- Institution -->
+      <text x="0" y="70" class="font-sans card-inst">Dayananda Sagar University, Bangalore</text>
+
+      <!-- Skill Tag Chips -->
+      <g transform="translate(0, 94)">
+        <rect x="0" y="0" width="62" height="26" rx="8" fill="#161B26" stroke="#2D3548" stroke-width="1"/>
+        <text x="12" y="17" class="font-sans card-pill-txt">Python</text>
+
+        <rect x="70" y="0" width="76" height="26" rx="8" fill="#161B26" stroke="#2D3548" stroke-width="1"/>
+        <text x="80" y="17" class="font-sans card-pill-txt">C++ (DSA)</text>
+
+        <rect x="154" y="0" width="74" height="26" rx="8" fill="#161B26" stroke="#2D3548" stroke-width="1"/>
+        <text x="164" y="17" class="font-sans card-pill-txt">Core Java</text>
+
+        <rect x="236" y="0" width="68" height="26" rx="8" fill="#161B26" stroke="#2D3548" stroke-width="1"/>
+        <text x="246" y="17" class="font-sans card-pill-txt">PyTorch</text>
+      </g>
+
+      <!-- Divider -->
+      <line x1="0" y1="140" x2="322" y2="140" stroke="#212736" stroke-width="1"/>
+
+      <!-- Social Icon Buttons Row -->
+      <g transform="translate(16, 160)">
+        <!-- GitHub -->
+        <circle cx="16" cy="16" r="16" fill="#181D2A" stroke="#2D3548" stroke-width="1"/>
+        <text x="10" y="22" font-size="14" fill="#FFFFFF">🐙</text>
+
+        <!-- LinkedIn -->
+        <circle cx="68" cy="16" r="16" fill="#181D2A" stroke="#2D3548" stroke-width="1"/>
+        <text x="61" y="21" class="font-sans" font-size="13" font-weight="700" fill="#0A66C2">in</text>
+
+        <!-- Kaggle -->
+        <circle cx="120" cy="16" r="16" fill="#181D2A" stroke="#2D3548" stroke-width="1"/>
+        <text x="115" y="21" class="font-sans" font-size="13" font-weight="700" fill="#20BEFF">k</text>
+
+        <!-- HuggingFace -->
+        <circle cx="172" cy="16" r="16" fill="#181D2A" stroke="#2D3548" stroke-width="1"/>
+        <text x="166" y="21" font-size="12">🤗</text>
+
+        <!-- X (Twitter) -->
+        <circle cx="224" cy="16" r="16" fill="#181D2A" stroke="#2D3548" stroke-width="1"/>
+        <text x="218" y="21" class="font-sans" font-size="13" font-weight="700" fill="#FFFFFF">𝕏</text>
+      </g>
+
+    </g>
+
+  </g>
+
+</svg>

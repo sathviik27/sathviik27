@@ -1,25 +1,28 @@
 <div align="center">
 
-<!-- Hero Banner Capsule -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,25,30&height=220&section=header&text=Sathvik%20R&fontSize=52&fontAlignY=38&fontColor=ffffff&desc=AI%20%26%20ML%20Engineer%20%E2%80%A2%20Cybersecurity%20%E2%80%A2%20Automotive%20Tech%20Creator&descAlignY=58&descAlign=50&descColor=00F0FF&animation=fadeIn" width="100%"/>
-
-<!-- Typing Subhead -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=780&height=45&lines=%F0%9F%A7%A0+AI+%26+Machine+Learning+Undergrad+%40+DSU+Bangalore;%E2%9A%A1+Deep+Neural+Architectures+%26+Pure+Java+Tensor+Engines;%F0%9F%9B%A1%EF%B8%8F+Cybersecurity+%26+Low-Level+Systems+Enthusiast;%F0%9F%8F%8E%EF%B8%8F+Automotive+Technology+%26+Car+Knowledge+Creator;%F0%9F%8E%AC+Cinematic+Video+Storytelling+with+DaVinci+Resolve" alt="Typing SVG" />
+<!-- Hero Portfolio Section (Exact Match to Reference UI) -->
+<a href="https://sathvikr.vercel.app" target="_blank">
+  <img src="./assets/images/hero-portfolio.svg" alt="Sathvik - Intelligence. Engineered from first principles." width="100%" style="max-width: 100%; border-radius: 16px;" />
 </a>
 
-<br/>
+<br/><br/>
 
-<!-- Profile Badges Bar -->
+<!-- Interactive Quick-Action Links Bar -->
 <p align="center">
+  <a href="https://sathvikr.vercel.app/#playground" target="_blank">
+    <img src="https://img.shields.io/badge/▶_Launch_AI_Studio-00F0FF?style=for-the-badge&logo=openai&logoColor=black&labelColor=0d1117" alt="Launch AI Studio" />
+  </a>
+  <a href="https://sathvikr.vercel.app/#skills" target="_blank">
+    <img src="https://img.shields.io/badge/Technical_Toolkit-00FF9D?style=for-the-badge&logo=codefactor&logoColor=black&labelColor=0d1117" alt="Technical Toolkit" />
+  </a>
   <a href="https://sathvikr.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-sathvikr.vercel.app-00F0FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Personal_Portfolio-ffffff?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0d1117" alt="Portfolio" />
   </a>
   <a href="mailto:sathvik.aiml@dsu.edu.in">
-    <img src="https://img.shields.io/badge/Email-sathvik.aiml%40dsu.edu.in-00FF9D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
+    <img src="https://img.shields.io/badge/Get_In_Touch-FF0080?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Get in Touch" />
   </a>
   <a href="https://github.com/sathviik27">
-    <img src="https://img.shields.io/badge/GitHub-sathviik27-white?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Follow_@sathviik27-white?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=sathviik27&label=Profile%20Views&color=00F0FF&style=for-the-badge&labelColor=0d1117" alt="Profile Views" />
 </p>
@@ -27,13 +30,6 @@
 </div>
 
 ---
-
-<!-- Profile Overview Card -->
-<div align="center">
-  <img src="./assets/images/profile-card.svg" alt="Sathvik Profile Card" width="100%" />
-</div>
-
-<br/>
 
 ## 👨‍💻 Executive Summary
 
