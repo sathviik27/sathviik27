@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#0072FF"/>
+    </linearGradient>
+    <linearGradient id="greenAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF9D"/>
+      <stop offset="100%" stop-color="#00A86B"/>
+    </linearGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3E00"/>
+      <stop offset="100%" stop-color="#FF0055"/>
+    </linearGradient>
+    <linearGradient id="purpleAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .pillar-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #FFFFFF; }
+    .pillar-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 400; fill: #8B949E; line-height: 1.4; }
+    .tag { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; }
+  </style>
+
+  <!-- Pillar 1: AI & ML -->
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="210" height="230" rx="14" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect x="0" y="0" width="210" height="4" rx="2" fill="url(#cyanAccent)"/>
+    <rect x="18" y="18" width="38" height="38" rx="10" fill="#00F0FF" fill-opacity="0.12"/>
+    <text x="37" y="42" text-anchor="middle" font-size="20">🧠</text>
+    
+    <text x="18" y="80" class="pillar-title">Artificial Intelligence</text>
+    <text x="18" y="98" class="pillar-title" fill="#00F0FF">&amp; Machine Learning</text>
+    
+    <text x="18" y="125" class="pillar-desc">
+      <tspan x="18" dy="0">Deep neural architectures,</tspan>
+      <tspan x="18" dy="17">PyTorch models, CNN vision,</tspan>
+      <tspan x="18" dy="17">autograd engines from</tspan>
+      <tspan x="18" dy="17">first principles &amp; math.</tspan>
+    </text>
+
+    <!-- Tag -->
+    <rect x="18" y="195" width="112" height="20" rx="6" fill="#00F0FF" fill-opacity="0.1"/>
+    <text x="24" y="209" class="tag" fill="#00F0FF">PRIMARY FOCUS</text>
+  </g>
+
+  <!-- Pillar 2: Cybersecurity -->
+  <g transform="translate(223, 0)">
+    <rect x="0" y="0" width="210" height="230" rx="14" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect x="0" y="0" width="210" height="4" rx="2" fill="url(#greenAccent)"/>
+    <rect x="18" y="18" width="38" height="38" rx="10" fill="#00FF9D" fill-opacity="0.12"/>
+    <text x="37" y="42" text-anchor="middle" font-size="20">🛡️</text>
+    
+    <text x="18" y="80" class="pillar-title">Cybersecurity &amp;</text>
+    <text x="18" y="98" class="pillar-title" fill="#00FF9D">Systems Security</text>
+    
+    <text x="18" y="125" class="pillar-desc">
+      <tspan x="18" dy="0">Low-level memory safety</tspan>
+      <tspan x="18" dy="17">in C++, JVM internals in</tspan>
+      <tspan x="18" dy="17">Core Java, network defense</tspan>
+      <tspan x="18" dy="17">&amp; secure pipelines.</tspan>
+    </text>
+
+    <!-- Tag -->
+    <rect x="18" y="195" width="130" height="20" rx="6" fill="#00FF9D" fill-opacity="0.1"/>
+    <text x="24" y="209" class="tag" fill="#00FF9D">SYSTEM DEFENSE</text>
+  </g>
+
+  <!-- Pillar 3: Automotive Technology -->
+  <g transform="translate(446, 0)">
+    <rect x="0" y="0" width="210" height="230" rx="14" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect x="0" y="0" width="210" height="4" rx="2" fill="url(#redAccent)"/>
+    <rect x="18" y="18" width="38" height="38" rx="10" fill="#FF3E00" fill-opacity="0.12"/>
+    <text x="37" y="42" text-anchor="middle" font-size="20">🏎️</text>
+    
+    <text x="18" y="80" class="pillar-title">Automotive Tech</text>
+    <text x="18" y="98" class="pillar-title" fill="#FF3E00">&amp; Car Engineering</text>
+    
+    <text x="18" y="125" class="pillar-desc">
+      <tspan x="18" dy="0">Powertrain mechanics,</tspan>
+      <tspan x="18" dy="17">aero efficiency, ECU tune</tspan>
+      <tspan x="18" dy="17">physics, EV dynamics &amp;</tspan>
+      <tspan x="18" dy="17">autonomous telemetry.</tspan>
+    </text>
+
+    <!-- Tag -->
+    <rect x="18" y="195" width="124" height="20" rx="6" fill="#FF3E00" fill-opacity="0.1"/>
+    <text x="24" y="209" class="tag" fill="#FF5E36">CREATOR NICHE</text>
+  </g>
+
+  <!-- Pillar 4: Video Creation & DaVinci Resolve -->
+  <g transform="translate(670, 0)">
+    <rect x="0" y="0" width="210" height="230" rx="14" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect x="0" y="0" width="210" height="4" rx="2" fill="url(#purpleAccent)"/>
+    <rect x="18" y="18" width="38" height="38" rx="10" fill="#A855F7" fill-opacity="0.12"/>
+    <text x="37" y="42" text-anchor="middle" font-size="20">🎬</text>
+    
+    <text x="18" y="80" class="pillar-title">Video Creation</text>
+    <text x="18" y="98" class="pillar-title" fill="#A855F7">&amp; DaVinci Resolve</text>
+    
+    <text x="18" y="125" class="pillar-desc">
+      <tspan x="18" dy="0">High-production storytelling,</tspan>
+      <tspan x="18" dy="17">color science grading in</tspan>
+      <tspan x="18" dy="17">DaVinci Resolve, dynamic</tspan>
+      <tspan x="18" dy="17">automotive visuals.</tspan>
+    </text>
+
+    <!-- Tag -->
+    <rect x="18" y="195" width="128" height="20" rx="6" fill="#A855F7" fill-opacity="0.1"/>
+    <text x="24" y="209" class="tag" fill="#C084FC">MEDIA CREATOR</text>
+  </g>
+</svg>

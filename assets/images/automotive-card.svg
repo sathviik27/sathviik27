@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgAuto" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141923"/>
+      <stop offset="100%" stop-color="#0a0d14"/>
+    </linearGradient>
+    <linearGradient id="nitroGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3E00"/>
+      <stop offset="50%" stop-color="#FF0055"/>
+      <stop offset="100%" stop-color="#00F0FF"/>
+    </linearGradient>
+    <linearGradient id="hudBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3E00" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .auto-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 18px; font-weight: 700; fill: #FFFFFF; }
+    .auto-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 400; fill: #8B949E; }
+    .tele-val { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; font-weight: 700; fill: #00F0FF; }
+    .tele-lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 500; fill: #7D8590; }
+    .hud-chip { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; }
+  </style>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="876" height="216" rx="14" fill="url(#bgAuto)" stroke="url(#hudBorder)" stroke-width="1.5"/>
+
+  <!-- Top Nitro Strip -->
+  <rect x="18" y="2" width="240" height="3" fill="url(#nitroGrad)"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 24)">
+    <circle cx="14" cy="14" r="14" fill="#FF3E00" fill-opacity="0.15"/>
+    <text x="14" y="19" text-anchor="middle" font-size="14">🏁</text>
+    <text x="36" y="14" class="auto-title">Automotive Technology &amp; Content Creation Lab</text>
+    <text x="36" y="29" class="auto-sub">Analyzing vehicle telemetry, powertrain engineering, aerodynamic physics &amp; producing cinematic car content.</text>
+  </g>
+
+  <!-- Telemetry Dashboard Metrics (3 Bento Blocks) -->
+  <g transform="translate(24, 80)">
+    <!-- Block 1: Aerodynamics & Powertrain -->
+    <rect x="0" y="0" width="265" height="114" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <rect x="14" y="14" width="24" height="24" rx="6" fill="#FF0055" fill-opacity="0.12"/>
+    <text x="26" y="31" text-anchor="middle" font-size="12">⚙️</text>
+    <text x="46" y="25" class="tele-lbl">POWERTRAIN &amp; AERO</text>
+    <text x="46" y="42" class="tele-val">Vehicle Dynamics</text>
+    <text x="14" y="70" class="auto-sub" font-size="11">
+      <tspan x="14" dy="0">• Naturally Aspirated vs Turbocharged</tspan>
+      <tspan x="14" dy="16">• Downforce, Drag (Cd) &amp; Ground Effect</tspan>
+      <tspan x="14" dy="16">• ECU Dyno Tuning &amp; Torque Curves</tspan>
+    </text>
+
+    <!-- Block 2: Autonomous & Vision Systems -->
+    <rect x="283" y="0" width="265" height="114" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <rect x="297" y="14" width="24" height="24" rx="6" fill="#00F0FF" fill-opacity="0.12"/>
+    <text x="309" y="31" text-anchor="middle" font-size="12">🤖</text>
+    <text x="329" y="25" class="tele-lbl">AUTONOMOUS SYSTEMS</text>
+    <text x="329" y="42" class="tele-val">Computer Vision &amp; AI</text>
+    <text x="297" y="70" class="auto-sub" font-size="11">
+      <tspan x="297" dy="0">• Real-Time Object Detection (YOLO)</tspan>
+      <tspan x="297" dy="16">• Sensor Fusion &amp; LiDAR Point Clouds</tspan>
+      <tspan x="297" dy="16">• Path Planning &amp; Edge Inference</tspan>
+    </text>
+
+    <!-- Block 3: Video Production & DaVinci Resolve -->
+    <rect x="566" y="0" width="265" height="114" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <rect x="580" y="14" width="24" height="24" rx="6" fill="#A855F7" fill-opacity="0.12"/>
+    <text x="592" y="31" text-anchor="middle" font-size="12">🎬</text>
+    <text x="612" y="25" class="tele-lbl">PRODUCTION PIPELINE</text>
+    <text x="612" y="42" class="tele-val" fill="#A855F7">DaVinci Resolve</text>
+    <text x="580" y="70" class="auto-sub" font-size="11">
+      <tspan x="580" dy="0">• Film Color Science &amp; Node Trees</tspan>
+      <tspan x="580" dy="16">• High-Framerate B-Roll Storytelling</tspan>
+      <tspan x="580" dy="16">• Fairlight Audio &amp; Engine Acoustics</tspan>
+    </text>
+  </g>
+</svg>
